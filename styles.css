@@ -135,19 +135,18 @@ header {
     color:#747B95 ;
     outline:none;
     font-size: 0.4em;
+    opacity: 0.5;
   }
 
- input[type="text"],
- input[type="email"],
- input[type="telephone"] {
-   opacity: 0.5;
- }
+ 
 
- input[type="email"],.fullname
+ .hidden
 {
    background-image:url(assets/sign-up/icon-cross.svg);
    background-repeat: no-repeat;
-   background-position: right 10px top 50%
+   background-position: right 10px top 50%;
+   color: red;
+   
  }
 
   .select {
@@ -160,20 +159,29 @@ header {
     font-size: 0.4em;
     outline: none;
     cursor: pointer;
-
-    /* replace default arrow styling*/
-
+    opacity: 0.6;
     appearance: none;
+    
     background-image: url(assets/sign-up/icon-arrow-down.svg);
     background-repeat: no-repeat;
-    background-position: right 10px top 50%
+    background-position: right 10px top 50%;
+    background-size: 3%;
+
+  }
+
+    /* replace default arrow styling*/
+.select_choosen {
+    color:black;
+    font-weight: 700;
+    opacity:1
    
   }
 
   .select option{
     font-weight: 700;
-    font-size:0.7em ;
-    color:#25293a
+    
+    color:#25293a;
+    
 
     
 

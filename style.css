@@ -215,6 +215,7 @@ footer {
   /* margin-top: 85em; */
   text-align: center;
   transform: translateY(400%);
+
   
   
 }
@@ -272,6 +273,8 @@ a{
   text-decoration:none ;
   color:#fff
 }
+
+
 
 
 /*--------Tablet RWD--------*/
@@ -387,8 +390,17 @@ header > img {
   }
 
   .coming_soon-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 
     transform: translateY(200%);
+  }
+
+  .btn_bottom {
+    margin: 3.5em;
+   
   }
 
   footer{
